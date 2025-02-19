@@ -68,8 +68,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 cd usvDocker
 ```
 
-# ⚠️ This process may vary depending on your internet speed
-<p1>Docker Build</p1>
+<p1>Docker Build (⚠️ This process may vary depending on your internet speed)</p1>
 ```bash
 # docker build -t <YOUR-IMAGES-NAME> .
 docker build -t usvDocker .
