@@ -5,16 +5,11 @@ This guide provides step-by-step instructions for setting up a USV (Unmanned Sur
 The simulation is based on the original code from the following repository:
 🔗 [Original Code Repository](https://github.com/Eminkorkut/rosHumbleGazebo11USV)
 
-
-
-
 <p align="center">
   <img src="https://github.com/Eminkorkut/usvDocker/blob/main/image/docker-logo.png" alt="Gazebo 11" width="800"/>
 </p>
 
-
 <h2>🛠️ Installation Steps:</h2>
-
 <p1>Download if you don't have git</p1>
 ```bash
 sudo apt install git
@@ -52,17 +47,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-<h2>🔗 Useful Resources</h2>
-<p>For further details on the technologies used in this project, refer to the official documentation:</p>
-<ul>
-  <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
-  <li><a href="https://docs.ros.org/en/humble/" target="_blank">ROS2 Humble Documentation</a></li>
-  <li><a href="https://classic.gazebosim.org/tutorials?tut=install_ubuntu" target="_blank">Gazebo 11 Documentation</a></li>
-  <li><a href="https://github.com/ultralytics/ultralytics" target="_blank">YOLOv11 GitHub Repository</a></li>
-</ul>
-
-<h2>🛠️ Stages of Use</h2>
-
+<h2>🦾 Stages of Use</h2>
 <p1>Switch to work directory</p1>
 ```bash
 cd usvDocker
@@ -117,8 +102,14 @@ docker exec -it <container-id> /bin/bash
   ros2 run myRos2 autonomous_boat_movement 
 ```
 
-
-
+<h2>🔗 Useful Resources</h2>
+<p>For further details on the technologies used in this project, refer to the official documentation:</p>
+<ul>
+  <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
+  <li><a href="https://docs.ros.org/en/humble/" target="_blank">ROS2 Humble Documentation</a></li>
+  <li><a href="https://classic.gazebosim.org/tutorials?tut=install_ubuntu" target="_blank">Gazebo 11 Documentation</a></li>
+  <li><a href="https://github.com/ultralytics/ultralytics" target="_blank">YOLOv11 GitHub Repository</a></li>
+</ul>
 
 <h2>🤝 Contribute to the Project</h2>
 <p>We welcome contributions to improve this project! If you’d like to contribute, follow these steps:</p>
@@ -136,8 +127,5 @@ git push origin feature-branch-name</code></pre>
 </ol>
 <p>Thank you for your contributions! 🚀</p>
 
-
-  
 ## ✍️ Authors
-
 - [@Eminkorkut](https://github.com/Eminkorkut)
