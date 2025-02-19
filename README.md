@@ -59,7 +59,7 @@ cd usvDocker
 ```bash
 # ⚠️ This process may vary depending on your internet speed
 # docker build -t <YOUR-IMAGES-NAME> .
-docker build -t usvDocker .
+docker build -t usv-docker .
 ```
 
 <p1>Grant X11 access for Docker GUI applications</p1>
@@ -76,7 +76,7 @@ docker run --rm --net=host --privileged \
     --env="SDL_AUDIODRIVER=dummy" \
     --device /dev/snd \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-    -it usvDocker bash
+    -it usv-docker bash
 ```
 
 <p1>Open a new terminal and connect to the Docker container</p1>
