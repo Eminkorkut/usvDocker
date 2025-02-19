@@ -1,0 +1,6 @@
+opencv-python
+ultralytics
+matplotlib
+pynput
+numpy==1.26.4
+torch
