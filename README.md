@@ -104,6 +104,9 @@ docker exec -it <container-id> /bin/bash
 ```bash
   cd world/
   gazebo 2duba.world --verbose
+
+  # if the above command does not work
+  # GAZEBO_AUDIO_DEVICE="" SDL_AUDIODRIVER=dummy gazebo 2duba.world --verbose
 ```
 
 <p1>Install and start ros2 in the other window</p1>
