@@ -52,8 +52,6 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-
-
 <h2>🔗 Useful Resources</h2>
 <p>For further details on the technologies used in this project, refer to the official documentation:</p>
 <ul>
@@ -62,6 +60,19 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
   <li><a href="https://classic.gazebosim.org/tutorials?tut=install_ubuntu" target="_blank">Gazebo 11 Documentation</a></li>
   <li><a href="https://github.com/ultralytics/ultralytics" target="_blank">YOLOv11 GitHub Repository</a></li>
 </ul>
+
+<h2>🛠️ Stages of Use</h2>
+
+<p1>Switch to work directory</p1>
+```bash
+cd usvDocker
+```
+
+<p1>Docker Build</p1>
+```bash
+# docker build -t <YOUR-IMAGES-NAME> .
+docker build -t usvDocker .
+```
 
 
 <h2>🤝 Contribute to the Project</h2>
