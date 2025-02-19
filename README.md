@@ -91,6 +91,15 @@ docker run --rm --net=host --privileged \
     -it usvDocker bash
 ```
 
+<p1>Open a new terminal and connect to the Docker container</p1>
+```bash
+# First, list all containers to find the correct container ID
+docker ps -a
+
+# Use the container ID from the output to connect to the running container
+docker exec -it <container-id> /bin/bash
+```
+
 
 
 <h2>🤝 Contribute to the Project</h2>
