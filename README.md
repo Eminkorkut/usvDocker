@@ -100,6 +100,20 @@ docker ps -a
 docker exec -it <container-id> /bin/bash
 ```
 
+<p1>Start gazebo in a window</p1>
+```bash
+  cd world/
+  gazebo 2duba.world --verbose
+```
+
+<p1>Install and start ros2 in the other window</p1>
+```bash
+  colcon build
+  source install/setup.bash
+  ros2 run myRos2 autonomous_boat_movement 
+```
+
+
 
 
 <h2>🤝 Contribute to the Project</h2>
