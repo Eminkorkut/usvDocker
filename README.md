@@ -54,6 +54,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 
 
+<h2>🔗 Useful Resources</h2>
+<p>For further details on the technologies used in this project, refer to the official documentation:</p>
+<ul>
+  <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
+  <li><a href="https://docs.ros.org/en/humble/" target="_blank">ROS2 Humble Documentation</a></li>
+  <li><a href="https://classic.gazebosim.org/tutorials?tut=install_ubuntu" target="_blank">Gazebo 11 Documentation</a></li>
+  <li><a href="https://github.com/ultralytics/ultralytics" target="_blank">YOLOv11 GitHub Repository</a></li>
+</ul>
+
 
 <h2>🤝 Contribute to the Project</h2>
 <p>We welcome contributions to improve this project! If you’d like to contribute, follow these steps:</p>
