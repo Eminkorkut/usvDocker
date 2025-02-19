@@ -2,6 +2,12 @@
 
 This guide provides step-by-step instructions for setting up a USV (Unmanned Surface Vehicle) control simulation using Docker, ROS2 Humble, and Gazebo 11. The integration leverages ROS2 for efficient communication and control within the Gazebo simulation environment.
 
+The simulation is based on the original code from the following repository:
+🔗 [Original Code Repository](https://github.com/Eminkorkut/rosHumbleGazebo11USV)
+
+
+
+
 <p align="center">
   <img src="https://github.com/Eminkorkut/usvDocker/blob/main/image/docker-logo.png" alt="Gazebo 11" width="800"/>
 </p>
@@ -31,3 +37,29 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+
+
+
+
+
+<h2>🤝 Contribute to the Project</h2>
+<p>We welcome contributions to improve this project! If you’d like to contribute, follow these steps:</p>
+<ol>
+  <li>Fork the repository: <a href="https://github.com/Eminkorkut/rosHumbleGazebo11USV/fork" target="_blank">Fork on GitHub</a></li>
+  <li>Clone your forked repository:</li>
+  <pre><code>git clone https://github.com/YOUR-NAME/rosHumbleGazebo11USV.git</code></pre>
+  <li>Create a new branch:</li>
+  <pre><code>git checkout -b feature-branch-name</code></pre>
+  <li>Make your changes and commit them:</li>
+  <pre><code>git add .
+git commit -m "Describe your changes"
+git push origin feature-branch-name</code></pre>
+  <li>Open a Pull Request: <a href="https://github.com/Eminkorkut/rosHumbleGazebo11USV/pulls" target="_blank">Create a PR</a></li>
+</ol>
+<p>Thank you for your contributions! 🚀</p>
+
+
+  
+## ✍️ Authors
+
+- [@Eminkorkut](https://github.com/Eminkorkut)
