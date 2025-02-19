@@ -74,6 +74,24 @@ cd usvDocker
 docker build -t usvDocker .
 ```
 
+<p1>Grant X11 access for Docker GUI applications</p1>
+```bash
+xhost +local:
+```
+
+<p1>Docker images run</p1>
+```bash
+docker run --rm --net=host --privileged \
+    --env="DISPLAY" \
+    --env="QT_X11_NO_MITSHM=1" \
+    --env="GAZEBO_AUDIO_DEVICE=" \
+    --env="SDL_AUDIODRIVER=dummy" \
+    --device /dev/snd \
+    -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
+    -it usvDocker bash
+```
+
+
 
 <h2>🤝 Contribute to the Project</h2>
 <p>We welcome contributions to improve this project! If you’d like to contribute, follow these steps:</p>
