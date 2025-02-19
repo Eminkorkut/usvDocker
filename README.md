@@ -15,6 +15,16 @@ The simulation is based on the original code from the following repository:
 
 <h2>🛠️ Installation Steps:</h2>
 
+<p1>Download if you don't have git</p1>
+```bash
+sudo apt install git
+```
+
+<p1>Clone the repo</p1>
+```bash
+git clone https://github.com/Eminkorkut/usvDocker.git
+```
+
 <p1>Set up Docker's apt repository</p1>
 ```bash
 # Add Docker's official GPG key:
@@ -36,8 +46,6 @@ sudo apt-get update
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
-
 
 
 
