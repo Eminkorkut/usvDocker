@@ -25,6 +25,11 @@ sudo apt install git
 git clone https://github.com/Eminkorkut/usvDocker.git
 ```
 
+<p1>Get inside the repo</p1>
+```bash
+cd usvDocker
+```
+
 <p1>Set up Docker's apt repository</p1>
 ```bash
 # Add Docker's official GPG key:
