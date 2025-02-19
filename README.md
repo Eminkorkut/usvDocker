@@ -10,6 +10,7 @@ The simulation is based on the original code from the following repository:
 </p>
 
 <h2>🛠️ Installation Steps:</h2>
+
 <p1>Download if you don't have git</p1>
 ```bash
 sudo apt install git
@@ -48,6 +49,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 
 <h2>🦾 Stages of Use</h2>
+
 <p1>Switch to work directory</p1>
 ```bash
 cd usvDocker
@@ -103,6 +105,7 @@ docker exec -it <container-id> /bin/bash
 ```
 
 <h2>🔗 Useful Resources</h2>
+
 <p>For further details on the technologies used in this project, refer to the official documentation:</p>
 <ul>
   <li><a href="https://docs.docker.com/" target="_blank">Docker Documentation</a></li>
@@ -112,6 +115,7 @@ docker exec -it <container-id> /bin/bash
 </ul>
 
 <h2>🤝 Contribute to the Project</h2>
+
 <p>We welcome contributions to improve this project! If you’d like to contribute, follow these steps:</p>
 <ol>
   <li>Fork the repository: <a href="https://github.com/Eminkorkut/usvDocker/fork" target="_blank">Fork on GitHub</a></li>
@@ -128,4 +132,5 @@ git push origin feature-branch-name</code></pre>
 <p>Thank you for your contributions! 🚀</p>
 
 ## ✍️ Authors
+
 - [@Eminkorkut](https://github.com/Eminkorkut)
