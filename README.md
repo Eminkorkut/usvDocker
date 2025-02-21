@@ -55,6 +55,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 cd usvDocker
 ```
 
+<p1>Granting Docker Permissions Without Sudo</p1>
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER 
+newgrp docker  
+```
+
 <p1>Docker Build</p1>
 ```bash
 # ⚠️ This process may vary depending on your internet speed
